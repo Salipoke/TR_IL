@@ -1,1 +1,32 @@
-caca
+intents:
+- usuario_saluda_hola
+- usuario_saluda_como_estas
+- usuario_saluda_que_tal
+- usuario_saluda_buenos_dias
+- usuario_saluda_buenas_tardes
+- usuario_saluda_buenas_noches
+- usuario_saluda_encantado_de_conocerte
+- usuario_saluda_encantado_de_verte
+- usuario_despide_adios
+
+actions:
+- utter_usuario_saluda_hola
+- utter_usuario_saluda_como_estas
+- utter_usuario_saluda_que_tal
+- utter_usuario_saluda_buenos_dias
+- utter_usuario_saluda_buenas_tardes
+- utter_usuario_saluda_buenas_noches
+- utter_usuario_saluda_encantado_de_conocerte
+- utter_usuario_saluda_encantado_de_verte
+- utter_usuario_despide_adios
+
+templates:
+  utter_usuario_saluda_hola:
+    - text: "¡Hola!"
+    - text: "¡Saludos!"
+    - text: "Hola, amigo"
+   utter_usuario_saluda_como_estas:
+    - text: "Muy bien, gracias"
+    - text: "Estoy muy bien, gracias por preguntar"
+    - text: "¡Hola, sujeto!"
+  
