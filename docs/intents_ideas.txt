@@ -31,21 +31,35 @@ templates:
     - text: "Muy bien, gracias"
     - text: "Estoy muy bien, gracias por preguntar"
     - text: "Bien, como de costumbre"
-   utter_usuario_saluda_que_te_cuentas
-    - text: "No mucho. ¿Y tú?"
+   utter_usuario_saluda_que_te_cuentas:
+    - text: "No mucho ¿y tú?"
     - text: "Poca cosa. ¿Tú qué te cuentas?"
     - text: "Nada, aquí hablando contigo. ¿Hay algo que me quieras preguntar?"
-   utter_usuario_saluda_buenos_dias
+   utter_usuario_saluda_buenos_dias:
     - text: "¡Buenos dias! ¿Cómo estás?"
     - text: "¡Hola! ¿Cómo llevas la mañana?"
     - text: "¿Cómo va tu día?"
-   utter_usuario_saluda_buenas_tardes
+   utter_usuario_saluda_buenas_tardes:
     - text: "Buenas, ¿Cómo ha ido tu día?"
     - text: "¡Buenas tardes!"
     - text: "¡Hola! ¿Cómo está iendo tu día?"
-   utter_usuario_saluda_buenas_noches
+   utter_usuario_saluda_buenas_noches:
     - text: "Buenas noches y que duermas bien"
     - text: "¡Bunenas noches! ¡Qué vaya bien!"
     - text: "¡Qué vaya bien! Cuídate"
-   
-    
+    - text: "Que duermas bien"
+    utter_usuario_saluda_encantado_de_conocerte:
+    - text: "Encantado de conocerte a ti también"
+    - text: "Igualmente, estoy deseando hablar contigo"
+    - text: "El placer es mío"
+    - text: "¡Lo mismo digo!"
+    utter_usuario_saluda_encantado_de_verte:
+    - text: "¡Igualmente!"
+    - text: "Realmente no me estas viendo, pero el sentimiento es mutuo"
+    utter_usuario_despide_adios:
+    - text: "¡Nos vemos pronto!"
+    - text: "¡Adiós!¡Qué  te vaya bien!"
+    - text: "Chao"
+    - text: "Que pases un buen día"
+    - text: "Hasta luego"
+    - text: "Nos vemos"    
