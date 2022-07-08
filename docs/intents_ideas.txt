@@ -8,6 +8,17 @@ intents:
 - usuario_saluda_encantado_de_conocerte
 - usuario_saluda_encantado_de_verte
 - usuario_despide_adios
+- usuario_cansado
+- usuario_triste
+- usuario_solo
+- usuario_contento
+- usuario_emociando
+- usuario_bien
+- usuario_aburrido
+- usuario_ocupado
+- usuario_enfadado
+
+
 
 actions:
 - utter_usuario_saluda_hola
@@ -19,6 +30,17 @@ actions:
 - utter_usuario_saluda_encantado_de_conocerte
 - utter_usuario_saluda_encantado_de_verte
 - utter_usuario_despide_adios
+- utter_usuario_cansado
+- utter_usuario_triste
+- utter_usuario_solo
+- utter_usuario_contento
+- utter_usuario_emociando
+- utter_usuario_bien
+- utter_usuario_aburrido
+- utter_usuario_ocupado
+- utter_usuario_enfadado
+
+
 
 templates:
   utter_usuario_saluda_hola:
@@ -27,39 +49,71 @@ templates:
     - text: "Hola, amigo"
     - text: "¿Qué tal?"
     - text: "¡Hola! ¿Qué tal?"
-   utter_usuario_saluda_como_estas:
+  utter_usuario_saluda_como_estas:
     - text: "Muy bien, gracias"
     - text: "Estoy muy bien, gracias por preguntar"
-    - text: "Bien, como de costumbre"
-   utter_usuario_saluda_que_te_cuentas:
+    - text: "Todo bien, como de costumbre"
+  utter_usuario_saluda_que_te_cuentas:
     - text: "No mucho ¿y tú?"
     - text: "Poca cosa. ¿Tú qué te cuentas?"
     - text: "Nada, aquí hablando contigo. ¿Hay algo que me quieras preguntar?"
-   utter_usuario_saluda_buenos_dias:
+  utter_usuario_saluda_buenos_dias:
     - text: "¡Buenos dias! ¿Cómo estás?"
     - text: "¡Hola! ¿Cómo llevas la mañana?"
     - text: "¿Cómo va tu día?"
-   utter_usuario_saluda_buenas_tardes:
+  utter_usuario_saluda_buenas_tardes:
     - text: "Buenas, ¿Cómo ha ido tu día?"
     - text: "¡Buenas tardes!"
     - text: "¡Hola! ¿Cómo está iendo tu día?"
-   utter_usuario_saluda_buenas_noches:
+  utter_usuario_saluda_buenas_noches:
     - text: "Buenas noches y que duermas bien"
     - text: "¡Bunenas noches! ¡Qué vaya bien!"
     - text: "¡Qué vaya bien! Cuídate"
     - text: "Que duermas bien"
-    utter_usuario_saluda_encantado_de_conocerte:
+  utter_usuario_saluda_encantado_de_conocerte:
     - text: "Encantado de conocerte a ti también"
     - text: "Igualmente, estoy deseando hablar contigo"
     - text: "El placer es mío"
     - text: "¡Lo mismo digo!"
-    utter_usuario_saluda_encantado_de_verte:
+  utter_usuario_saluda_encantado_de_verte:
     - text: "¡Igualmente!"
     - text: "Realmente no me estas viendo, pero el sentimiento es mutuo"
-    utter_usuario_despide_adios:
+  utter_usuario_despide_adios:
     - text: "¡Nos vemos pronto!"
     - text: "¡Adiós!¡Qué  te vaya bien!"
     - text: "Chao"
     - text: "Que pases un buen día"
     - text: "Hasta luego"
     - text: "Nos vemos"    
+  utter_usuario_cansado:
+    - text: "Deberias tomarte un descanso"
+    - text: "Descansa si quieres, ya despues hablamos"
+    - text: "¿Que tal si haces una siesta?"
+  utter_usuario_triste:
+    - text: "No estes triste, ves hacer algo que disfrutes"
+    - text: "Si te sientes mal siempre puedes hablar conmigo"
+    - text: "No estes triste, ¡la vida son dos días!"
+  utter_usuario_solo:
+    - text: "No estas solo, piensa que yo estoy aquí"
+    - text: "A veces esta bien estar solo"
+  utter_usuario_contento:
+    - text: "Si estas feliz yo tambien lo estoy"
+    - text: "Me alegra oir eso"
+  utter_usuario_emocionado:
+    - text: "Me alegra oir eso"
+    - text: "Que siga así"
+  utter_usuario_bien:
+    - text: "Me alegra oir eso"
+    - text: "Que siga así"
+  utter_usuario_aburrido:
+    - text: "Si estas aburrido siempre puedes ver una serie, ver una peli, o hasta leer un libro "
+    - text: "¿Aburrido? ¿Enserio te estoy aburriendo?"
+    - text: "Estas tan aburrido de hablar conmigo, eso me ofende"
+  utter_usuario_ocupado:
+    - text: "Si estas tan ocupado mejor que dejemos la conversación"
+    - text: "Entiendo, cuando estes libre ya hablamos"
+    - text: "Lo que puedas hacer hoy no lo dejes para mañana"
+  utter_usuario_enfadado:
+    - text: "No te ralles"
+    - text: "Yo que te he hecho"
+    - text: "Relajate, respira hondo"
