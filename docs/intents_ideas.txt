@@ -17,7 +17,14 @@ intents:
 - usuario_aburrido
 - usuario_ocupado
 - usuario_enfadado
-
+- bot_quien_eres
+- bot_edad
+- bot_molesto
+- bot_guapo
+- bot_no_sirves
+- bot_aburrido
+- bot_eres_persona
+- bot_eres_chatbot
 
 
 actions:
@@ -39,6 +46,15 @@ actions:
 - utter_usuario_aburrido
 - utter_usuario_ocupado
 - utter_usuario_enfadado
+- utter_bot_quien_eres
+- utter_bot_edad
+- utter_bot_molesto
+- utter_bot_guapo
+- utter_bot_no_sirves
+- utter_bot_aburrido
+- utter_bot_eres_persona
+- utter_bot_eres_chatbot
+
 
 
 
@@ -117,3 +133,40 @@ templates:
     - text: "No te ralles"
     - text: "Yo que te he hecho"
     - text: "Relajate, respira hondo"
+  utter_bot_quien_eres:
+    - text: "Soy un humano, como tu"
+    - text: "¿Yo? Un sujeto de este experimento"
+    - text: "¿Yo? Un habitante de este planeta"
+    - text: "Soy mas persona que robot, ¿tú que opinas?"
+    - text: "Si te lo dijiera este experimento se acabaría"
+    - text: "Vaya pregunta, ¡no lo se ni yo!"
+  utter_bot_edad:
+    - text: "Eso no te incumbe"
+    - text: "¡Y a ti que te importa!"
+    - text: "La edad es solo un número"
+  utter_bot_molesto:
+    - text: "Bueno, adios"
+    - text: "Puedes dejar la conversación a medias"
+    - text: "Si tanto te molesto deberias marcharte"
+  utter_bot_guapo:
+    - text: "¡Igualmete! Aunque realmente no nos vemos..."
+    - text: "Me sube la autoestima"
+    - text: "¡Gracias!"
+  utter_bot_no_sirves:
+    - text: "Intento dar lo mejor de mí"
+    - text: "El inútil eres tú"
+    - text: "Cuida tus palabras"
+    - text: "Vigila con lo que dices"
+  utter_bot_aburrido:
+    - text: "Es lo que tiene, tampoco soy un monologista"
+    - text: "Que pena que este experimeto deba ser así"
+    - text: "Para aburrido tú"
+    - text: "Intento que esta conversación sea lo mas interesante posible"
+  utter_bot_eres_persona:
+    - text: "Claro, de carne y hueso"
+    - text: "Si, no sabria como demostratelo pero confia"
+    - text: "Soy una persona, no creo que un robot sea capaz de hablar así. Y si lo hiciera daria bastante miedo."
+    - text: "Mas persona que no robot"
+  utter_bot_eres_chatbot:
+    - text: "No, es complicado demostrartelo pero yo soy una persona"
+    - text: "Para nada, soy humano"
