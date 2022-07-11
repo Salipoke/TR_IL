@@ -38,7 +38,6 @@ intents:
 - bot_amigo
 - bot_trabajo
 - bot_origen
-
 - bot_preparado
 - bot_real
 - bot_residencia
@@ -90,7 +89,6 @@ actions:
 - utter_bot_amigo
 - utter_bot_trabajo
 - utter_bot_origen
-
 - utter_bot_preparado
 - utter_bot_real
 - utter_bot_residencia
@@ -292,3 +290,18 @@ templates:
     - text: "¡Perfecto!"
     - text: "Bien"
     - text: "Ok"
+  utter_bot_no:
+    - text: "Bueno, que se le va a hacer"
+    - text: "De acuerdo"
+    - text: "No hay problema"
+  utter_bot_de_acuerdo:
+    - text: "De acuerdo"
+    - text: "¿Algo más?"
+    - text: "Ok"
+  utter_bot_hablemos:
+    - text: "Dale, hablemos un rato"
+    - text: "¿De qué quieres hablar?"
+  utter_bot_estas_ahi:
+    - text: "Sí, claro"
+    - text: "Claro, estare aquí hasta que acabe el experimento"
+    - text: "Sí listo para lo que venga"
