@@ -48,6 +48,14 @@ intents:
 - bot_hablemos
 - bot_estas_ahi
 
+- bot_donde_estas
+- bot_no_hay_problema
+- bot_gracias
+- bot_bien_hecho
+- bot_bienvenido
+- bot_amable
+- bot_perdon
+
 
 actions:
 - utter_usuario_saluda_hola
