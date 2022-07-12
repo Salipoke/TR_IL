@@ -47,7 +47,6 @@ intents:
 - bot_de_acuerdo
 - bot_hablemos
 - bot_estas_ahi
-
 - bot_donde_estas
 - bot_no_hay_problema
 - bot_gracias
@@ -106,6 +105,13 @@ actions:
 - utter_bot_de_acuerdo
 - utter_bot_hablemos
 - utter_bot_estas_ahi
+- utter_bot_donde_estas
+- utter_bot_no_hay_problema
+- utter_bot_gracias
+- utter_bot_bien_hecho
+- utter_bot_bienvenido
+- utter_bot_amable
+- utter_bot_perdon
 
 
 
@@ -313,3 +319,31 @@ templates:
     - text: "Sí, claro"
     - text: "Claro, estare aquí hasta que acabe el experimento"
     - text: "Sí listo para lo que venga"
+  utter_bot_donde_estas:
+    - text: "No sabria decirte, estoy en una habitación"
+    - text: "Estoy en una habitación"
+    - text: "Hablando contigo, pero físicamente no se donde estoy"
+  utter_bot_no_hay_problema:
+    - text: "Me alegra oir eso"
+    - text: "Lo mismo digo"
+    - text: "Sin problemas"
+  utter_bot_gracias:
+    - text: "¡De nada!"
+    - text: "Nada"
+    - text: "No es nada"
+    - text: "No hay de qué"
+  utter_bot_bien_hecho:
+    - text: "Gracias"
+    - text: "No ha sido para tanto"
+  utter_bot_bienvenido:
+    - text: "El placer es mío"
+    - text: "Gracias"
+  utter_bot_amable:
+    - text: "Gracias, tu tambien lo eres"
+    - text: "Intento llevarme bien con todo el mundo"
+    - text: "La educación va siempre por delante"
+  utter_bot_perdon:
+    - text: "No te preocupes"
+    - text: "Disculpas aceptadas"
+    - text: "No ha sido para tanto"
+    - text: "Nada, no te ralles"
