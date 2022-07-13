@@ -123,7 +123,6 @@ actions:
 - utter_dialogo_espera
 - utter_dialogo_que_dices
 - utter_dialogo_mal
-
 - utter_reacciones_ja_ja
 - utter_reacciones_wow
 
