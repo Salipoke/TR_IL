@@ -1,0 +1,249 @@
+version: "3.1"
+
+rules:
+
+- rule: Say usuario_saluda_hola anytime the user says utter_usuario_saluda_hola
+  steps:
+  -  intent: usuario_saluda_hola
+  -  action: utter_usuario_saluda_hola
+
+- rule: Say usuario_saluda_como_estas anytime the user says utter_usuario_saluda_como_estas
+  steps:
+  -  intent: usuario_saluda_como_estas
+  -  action: utter_usuario_saluda_como_estas
+
+- rule: Say usuario_saluda_que_te_cuentas anytime the user says utter_usuario_saluda_que_te_cuentas
+  steps:
+  -  intent: usuario_saluda_que_te_cuentas
+  -  action: utter_usuario_saluda_que_te_cuentas
+
+- rule: Say usuario_saluda_buenos_dias anytime the user says utter_usuario_saluda_buenos_dias
+  steps:
+  -  intent: usuario_saluda_buenos_dias
+  -  action: utter_usuario_saluda_buenos_dias
+
+- rule: Say usuario_saluda_buenas_tardes anytime the user says utter_usuario_saluda_buenas_tardes
+  steps:
+  -  intent: usuario_saluda_buenas_tardes
+  -  action: utter_usuario_saluda_buenas_tardes
+
+- rule: Say usuario_saluda_buenas_noches anytime the user says utter_usuario_saluda_buenas_noches
+  steps:
+  -  intent: usuario_saluda_buenas_noches
+  -  action: utter_usuario_saluda_buenas_noches
+
+- rule: Say usuario_saluda_encantado_de_conocerte anytime the user says utter_usuario_saluda_encantado_de_conocerte
+  steps:
+  -  intent: usuario_saluda_encantado_de_conocerte
+  -  action: utter_usuario_saluda_encantado_de_conocerte
+
+- rule: Say usuario_saluda_encantado_de_verte anytime the user says utter_usuario_saluda_encantado_de_verte
+  steps:
+  -  intent: usuario_saluda_encantado_de_verte
+  -  action: utter_usuario_saluda_encantado_de_verte
+
+- rule: Say usuario_despide_adios anytime the user says utter_usuario_despide_adios
+  steps:
+  -  intent: usuario_despide_adios
+  -  action: utter_usuario_despide_adios
+
+- rule: Say usuario_cansado anytime the user says utter_usuario_cansado
+  steps:
+  -  intent: usuario_cansado
+  -  action: utter_usuario_cansado
+
+- rule: Say usuario_triste anytime the user says utter_usuario_triste
+  steps:
+  -  intent: usuario_triste
+  -  action: utter_usuario_triste
+
+- rule: Say usuario_solo anytime the user says utter_usuario_solo
+  steps:
+  -  intent: usuario_solo
+  -  action: utter_usuario_solo
+
+- rule: Say usuario_contento anytime the user says utter_usuario_contento
+  steps:
+  -  intent: usuario_contento
+  -  action: utter_usuario_contento
+
+- rule: Say usuario_emocionado anytime the user says utter_usuario_emocionado
+  steps:
+  -  intent: usuario_emocionado
+  -  action: utter_usuario_emocionado
+
+- rule: Say usuario_bien anytime the user says utter_usuario_bien
+  steps:
+  -  intent: usuario_bien
+  -  action: utter_usuario_bien
+
+- rule: Say usuario_aburrido anytime the user says utter_usuario_aburrido
+  steps:
+  -  intent: usuario_aburrido
+  -  action: utter_usuario_aburrido
+
+- rule: Say usuario_ocupado anytime the user says utter_usuario_ocupado
+  steps:
+  -  intent: usuario_ocupado
+  -  action: utter_usuario_ocupado
+
+- rule: Say usuario_enfadado anytime the user says utter_usuario_enfadado
+  steps:
+  -  intent: usuario_enfadado
+  -  action: utter_usuario_enfadado
+
+- rule: Say bot_quien_eres anytime the user says utter_bot_quien_eres
+  steps:
+  -  intent: bot_quien_eres
+  -  action: utter_bot_quien_eres
+
+- rule: Say bot_edad anytime the user says utter_bot_edad
+  steps:
+  -  intent: bot_edad
+  -  action: utter_bot_edad
+
+- rule: Say bot_molesto anytime the user says utter_bot_molesto
+  steps:
+  -  intent: bot_molesto
+  -  action: utter_bot_molesto
+
+- rule: Say bot_guapo anytime the user says utter_bot_guapo
+  steps:
+  -  intent: bot_guapo
+  -  action: utter_bot_guapo
+
+- rule: Say bot_no_sirves anytime the user says utter_bot_no_sirves
+  steps:
+  -  intent: bot_no_sirves
+  -  action: utter_bot_no_sirves
+
+- rule: Say bot_aburrido anytime the user says utter_bot_aburrido
+  steps:
+  -  intent: bot_aburrido
+  -  action: utter_bot_aburrido
+
+- rule: Say bot_eres_persona anytime the user says utter_bot_eres_persona
+  steps:
+  -  intent: bot_eres_persona
+  -  action: utter_bot_eres_persona
+
+- rule: Say bot_eres_chatbot anytime the user says utter_bot_eres_chatbot
+  steps:
+  -  intent: bot_eres_chatbot
+  -  action: utter_bot_eres_chatbot
+
+- rule: Say bot_gracioso anytime the user says utter_bot_gracioso
+  steps:
+  -  intent: bot_gracioso
+  -  action: utter_bot_gracioso
+
+- rule: Say bot_feliz anytime the user says utter_bot_feliz
+  steps:
+  -  intent: bot_feliz
+  -  action: utter_bot_feliz
+
+- rule: Say bot_hambriento anytime the user says utter_bot_hambriento
+  steps:
+  -  intent: bot_hambriento
+  -  action: utter_bot_hambriento
+
+- rule: Say bot_fecha_de_nacimiento anytime the user says utter_bot_fecha_de_nacimiento
+  steps:
+  -  intent: bot_fecha_de_nacimiento
+  -  action: utter_bot_fecha_de_nacimiento
+
+- rule: Say bot_ocupado anytime the user says utter_bot_ocupado
+  steps:
+  -  intent: bot_ocupado
+  -  action: utter_bot_ocupado
+
+- rule: Say bot_listo anytime the user says utter_bot_listo
+  steps:
+  -  intent: bot_listo
+  -  action: utter_bot_listo
+
+- rule: Say bot_tonto anytime the user says utter_bot_tonto
+  steps:
+  -  intent: bot_tonto
+  -  action: utter_bot_tonto
+
+- rule: Say bot_loco anytime the user says utter_bot_loco
+  steps:
+  -  intent: bot_loco
+  -  action: utter_bot_loco
+
+- rule: Say bot_bien anytime the user says utter_bot_bien
+  steps:
+  -  intent: bot_bien
+  -  action: utter_bot_bien
+
+- rule: Say bot_casarse_con_usuario anytime the user says utter_bot_casarse_con_usuario
+  steps:
+  -  intent: bot_casarse_con_usuario
+  -  action: utter_bot_casarse_con_usuario
+
+- rule: Say bot_amigo anytime the user says utter_bot_amigo
+  steps:
+  -  intent: bot_amigo
+  -  action: utter_bot_amigo
+
+- rule: Say bot_trabajo anytime the user says utter_bot_trabajo
+  steps:
+  -  intent: bot_trabajo
+  -  action: utter_bot_trabajo
+
+- rule: Say bot_origen anytime the user says utter_bot_origen
+  steps:
+  -  intent: bot_origen
+  -  action: utter_bot_origen
+
+- rule: Say bot_preparado anytime the user says utter_bot_preparado
+  steps:
+  -  intent: bot_preparado
+  -  action: utter_bot_preparado
+
+- rule: Say bot_real anytime the user says utter_bot_real
+  steps:
+  -  intent: bot_real
+  -  action: utter_bot_real
+
+- rule: Say bot_residencia anytime the user says utter_bot_residencia
+  steps:
+  -  intent: bot_residencia
+  -  action: utter_bot_residencia
+
+- rule: Say bot_ok anytime the user says utter_bot_ok
+  steps:
+  -  intent: bot_ok
+  -  action: utter_bot_ok
+
+- rule: Say bot_si anytime the user says utter_bot_si
+  steps:
+  -  intent: bot_si
+  -  action: utter_bot_si
+
+- rule: Say bot_no anytime the user says utter_bot_no
+  steps:
+  -  intent: bot_no
+  -  action: utter_bot_no
+
+- rule: Say bot_de_acuerdo anytime the user says utter_bot_de_acuerdo
+  steps:
+  -  intent: bot_de_acuerdo
+  -  action: utter_bot_de_acuerdo
+
+- rule: Say bot_hablemos anytime the user says utter_bot_hablemos
+  steps:
+  -  intent: bot_hablemos
+  -  action: utter_bot_hablemos
+
+- rule: Say bot_estas_ahi anytime the user says utter_bot_estas_ahi
+  steps:
+  -  intent: bot_estas_ahi
+  -  action: utter_bot_estas_ahi
+
+- rule: Ask the user to rephrase whenever they send a message with low NLU confidence
+  steps:
+  - intent: nlu_fallback
+  - action: utter_dialogo_que_dices
+

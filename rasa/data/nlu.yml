@@ -1,0 +1,519 @@
+version: "3.1"
+
+nlu:
+- intent: usuario_saluda_hola
+  examples: |
+    - hey
+    - hola
+    - ola
+    - hola pepsicola
+    - Hola, que tal?
+    - Hey, que tal?
+
+- intent: usuario_saluda_como_estas
+  examples: |
+    - como estas?
+    - que tal?
+    - q tal?
+    - Como va?
+
+- intent: usuario_saluda_que_te_cuentas
+  examples: |
+    - Que te cuentas?
+    - Que haces?
+    - Que estas haciendo?
+    - Q te cuentas?
+
+- intent: usuario_saluda_buenos_dias
+  examples: |
+    - Buenos dias
+    - Buen dia
+
+- intent: usuario_saluda_buenas_tardes
+  examples: |
+    - Buenas tardes
+    - Buena tarde
+
+- intent: usuario_saluda_buenas_noches
+  examples: |
+    - nanit
+    - Buenas noches
+    - Buena noche
+    - Me voy a dormir
+
+- intent: usuario_saluda_encantado_de_conocerte
+  examples: |
+    - Tengo ganas de charlar contigo
+    - Tengo ganas de hablar contigo
+    - Quiero conocerte
+
+- intent: usuario_saluda_encantado_de_verte
+  examples: |
+    - Encantado de verte
+    - Me ha gustado verte
+
+- intent: usuario_despide_adios
+  examples: |
+    - Adios
+    - Chao
+    - Me las piro
+    - Me voy
+    - Me marcho
+    - Hasta luego
+    - Que la pases bien
+    - Se acabó
+
+- intent: usuario_cansado
+  examples: |
+    - Estoy cansado
+    - Estoy hecho polvo
+    - No tengo energia
+
+- intent: usuario_triste
+  examples: |
+    - Estoy triste
+    - Estoy deprimido
+    - Me siento mal
+    - Me quiero suicidar
+    - Quiero llorar
+    - No soy feliz
+    - Estoy teniendo un mal dia
+    - Soy malo
+
+- intent: usuario_solo
+  examples: |
+    - Me siento solo
+    - Quiero no estar solo
+    - Estoy solo
+
+- intent: usuario_contento
+  examples: |
+    - Estoy contento
+    - Soy feliz
+    - Me alegra
+    - Me gusta hablar contigo
+
+- intent: usuario_emocionado
+  examples: |
+    - Estoy super emocionado
+    - Estoy emocionado
+
+- intent: usuario_bien
+  examples: |
+    - Estoy bien
+    - No estoy mal
+    - Esta bien
+    - Me parece bien
+
+- intent: usuario_aburrido
+  examples: |
+    - Me aburro
+    - Estoy aburrido
+    - Me estoy aburriendo
+    - Esto me aburre
+    - Esto es aburrido
+
+- intent: usuario_ocupado
+  examples: |
+    - No puedo hablar ahora
+    - No me molestes
+    - Dejame en paz
+    - Estoy ocupado
+    - Tengo cosas que hacer
+    - 
+
+- intent: usuario_enfadado
+  examples: |
+    - Que te meto un puñetazo
+    - Gilipollas
+    - Me voy a cabrear
+    - Me estoy enfadando
+    - Estoy enfadado
+
+- intent: bot_quien_eres
+  examples: |
+    - Quien eres?
+    - Cuentamelo todo sobre ti
+    - Introducete
+    - Quiero saber más sobre ti
+    - Dime algo sobre ti
+
+- intent: bot_edad
+  examples: |
+    - Cuantos años tienes?
+    - Cuanto tiempo llevas vivo?
+    - Cual es tu edad?
+
+- intent: bot_molesto
+  examples: |
+    - Eres muy pesado
+    - Eres molesto
+    - Me estas molestando
+    - Te encuentro molesto
+
+- intent: bot_guapo
+  examples: |
+    - Eres guapo
+    - Precioso
+    - Estas bueno
+    - Guapo
+    - Eres muy bello
+
+- intent: bot_no_sirves
+  examples: |
+    - Eres inutil
+    - No sirves
+    - Eres de muy poca ayuda
+    - Eres malo
+    - Eres muy malo
+    - Eres horrible
+    - Eres el peor
+
+- intent: bot_aburrido
+  examples: |
+    - Eres aburrido
+    - No eres divertido
+    - No eres entretenido
+
+- intent: bot_eres_persona
+  examples: |
+    - Eres una persona?
+    - En serio eres humano?
+    - Eres humano?
+    - Creo que eres humano
+    - No creo que seas un bot
+    - No creo que seas una IA
+    - No creo que seas una maquina
+    - Supongo que eres humano
+
+- intent: bot_eres_chatbot
+  examples: |
+    - Eres el bot?
+    - Eres la IA?
+    - Eres el chatbot?
+    - Eres una màquina?
+    - No eres humano
+    - Solo eres un robot
+    - Solo eres un bot
+    - Solo eres un programa
+    - Solo eres una IA
+    - Solo eres una maquina
+
+- intent: bot_gracioso
+  examples: |
+    - Eres divertido
+    - Eres gracioso
+    - Me diviertes
+    - Me haces reir
+    - Eres funny
+
+- intent: bot_feliz
+  examples: |
+    - Eres feliz?
+    - Realmente eres feliz?
+    - Como de feliz eres?
+
+- intent: bot_hambriento
+  examples: |
+    - Tienes hambre?
+    - Cuanta hambre tienes?
+    - Tienes ganas de comer?
+    - Quieres comer?
+
+- intent: bot_nacimiento
+  examples: |
+    - Quando naciste?
+    - Que dia naciste?
+    - Cuando es tu cumple?
+    - Cual es la fecha de tu cumple
+    - Cuando es tu cumpleaños
+
+- intent: bot_ocupado
+  examples: |
+    - Estas ocupado?
+    - Espero no molestar
+    - Estas haciendo algo?
+
+- intent: bot_listo
+  examples: |
+    - Eres muy listo
+    - Eres inteligente
+    - No eres tonto
+    - Sabes mucho
+    - Sabes muchas cosas
+
+- intent: bot_tonto
+  examples: |
+    - Eres tonto
+    - No eres listo
+    - No eres inteligente
+    - No sabes nada
+    - No sabes muchas cosas
+
+- intent: bot_loco
+  examples: |
+    - Estas enfermo
+    - Estas loco
+    - No estas mentalmente bien
+ 
+- intent: bot_bien
+  examples: |
+    - Estas bien
+    - Eres bueno
+    - Eres el mejor
+    - Eres un profesional
+    - Eres perfecto
+    - Eres muy amable
+    - Eres guay
+    - Eres asombroso
+    - Eres increible
+    - Eres un crack
+    - Me has alegrado el dia
+
+- intent: bot_casarse_con_usuario
+  examples: |
+    - Te quieres casar conmigo?
+    - Quieres ser mi novio?
+    - Quieres follar?
+    - Nos damos un beso?
+    - Te quiero follar
+    - Te follo
+    - Te quiero besar
+    - Por favor, casemonos
+    - Por favor, casate conmigo
+    - Quieres ser mi pareja?
+    - Quieres que salgamos? 
+    - Quieres salir conmigo?
+    - Quieres salir juntos?
+
+- intent: bot_amigo
+  examples: |
+    - Quieres ser amigos?
+    - Quieres ser mi amigo?
+    - Podemos ser amigos?
+    - Quiero ser tu amigo
+    - Somos amigos?
+
+- intent: bot_trabajo
+  examples: |
+    - De que trabajas?
+    - Cual es tu trabajo?
+    - De que curras?
+    - Tienes trabajo?
+    - Que haces en el trabajo?
+    - Donde trabajas?
+
+- intent: bot_origen
+  examples: |
+    - De donde vienes?
+    - Donde naciste?
+
+- intent: bot_preparado
+  examples: |
+    - Estas preparado?
+    - Ready?
+    - Listo?
+    - Preparados?
+
+- intent: bot_real
+  examples: |
+    - Eres real?
+    - Creo que eres real
+    - Creo que no eres real
+    - No real
+    - Eres falso
+    - No eres verdadero
+
+- intent: bot_residencia
+  examples: |
+    - Donde vives?
+    - Donde resides?
+    - Donde esta tu casa?
+    - Donde duermes?
+
+- intent: bot_ok
+  examples: |
+    - Perfecto
+    - Pues ya esta
+    - Ok
+    - Ideal
+    - Okey
+    - Vale
+    - Okey makey
+    - Perf
+
+- intent: bot_si
+  examples: |
+    - Si
+    - Sep
+    - non't
+    - yes
+    - yeah
+    - Se
+    - Sepe
+    - Sip
+    - Simon
+    - S
+    - Afirmativo
+
+- intent: bot_no
+  examples: |
+    - No
+    - Nope
+    - Nanai
+    - Nah
+    - yesn't
+    - Negativo
+    - N
+    - Noup
+
+- intent: bot_de_acuerdo
+  examples: |
+    - Ok
+    - De acuerdo
+    - Seguro
+    - Estoy seguro
+    - Sin duda
+
+- intent: bot_hablemos
+  examples: |
+    - Charlemos
+    - Hablame de algo
+    - Hablemos
+    - Porque no me hablas?
+    - Habla
+    - Di algo
+    - Me puedes hablar?
+    - Me vas a hablar?
+    - Me hablaras?
+    - Charla conmigo
+    - Habla conmigo
+    - Hablar contigo
+
+- intent: bot_estas_ahi
+  examples: |
+    - Estas?
+    - Hay alguien?
+    - Estas ahi?
+    - Sigues aqui?
+    - Estas aqui?
+    - Sigues ahi?
+
+- intent: bot_donde_estas
+  examples: |
+    - Donde estas ahora?
+    - Donde estas?
+    - Desde donde me hablas?
+    - Donde te localizas?
+
+- intent: bot_no_hay_problema
+  examples: |
+    - Sin problemas
+    - Por mi perfecto
+    - Sin problemas
+    - Sin dudarlo
+    - No hay problema
+    - Sin duda
+
+- intent: bot_gracias
+  examples: |
+    - Merci
+    - Gracias
+    - Obrigado 
+    - Thanks
+    - Thx
+    - Te regalas
+    - Muchas gracias
+    - Muchissimas gracias
+
+- intent: bot_bien_hecho
+  examples: |
+    - Lo has hecho perfecto
+    - Muy bien hecho
+    - Perfectamente hecho
+    - Bien hecho
+    - Buena
+    - Hechissima
+
+- intent: bot_bienvenido
+  examples: |
+    - Bienvenido
+    - Un placer hablar contigo
+    - Un placer tenerte aqui
+    - Un placer charlar contigo
+
+- intent: bot_amable
+  examples: |
+    - Eres muy amable
+    - Eres muy educado
+    - Amable
+    - Educado
+    - Hablas muy bien
+    - Eres buena persona
+    - Buena persona
+
+- intent: bot_perdon
+  examples: |
+    - Lo siento
+    - Perdoname
+    - srry
+    - Sorry
+    - Perdona
+    - Ho sento
+    - Disculpa
+    - Me disculpo
+    - Me arrepiento mucho
+    - Espero que me perdones
+
+- intent: =que
+  examples: |
+    - Que?
+    - k
+    - q
+
+- intent: dialogo_abrazo
+  examples: |
+    - Te quiero abrazar
+    - Te puedo abrazar?
+    - Abrazo
+    - Ojala poder abrazarte
+
+- intent: dialogo_no_me_importa
+  examples: |
+    - Me la pela
+    - Me la suda
+    - Me da igual
+    - No me importa
+    - Poco me importa
+    - Casi me importa
+    - Me la chupa
+
+- intent: dialogo_espera
+  examples: |
+    - Espera un segundo
+    - Perate
+    - Esperate
+    - Espera un minuto
+    - Wait
+    - Parate
+
+
+- intent: reacciones_ja_ja
+  examples: |
+    - lmfao
+    - lol
+    - XD
+    - jajajajaja
+    - hahahahahahahaha
+    - lmao
+    - se rie
+
+
+- intent: reacciones_wow
+  examples: |
+    - wow
+    - uala
+    - wakala
+    - :O
+    - :0
+    - :v

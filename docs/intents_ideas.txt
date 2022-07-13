@@ -59,7 +59,6 @@ intents:
 - dialogo_espera
 - dialogo_que_dices
 - dialogo_mal
-
 - reacciones_ja_ja
 - reacciones_wow
 
