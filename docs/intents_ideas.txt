@@ -54,7 +54,14 @@ intents:
 - bot_bienvenido
 - bot_amable
 - bot_perdon
+- dialogo_abrazo
+- dialogo_no_me_importa
+- dialogo_espera
+- dialogo_que_dices
+- dialogo_mal
 
+- reacciones_ja_ja
+- reacciones_wow
 
 actions:
 - utter_usuario_saluda_hola
@@ -112,6 +119,14 @@ actions:
 - utter_bot_bienvenido
 - utter_bot_amable
 - utter_bot_perdon
+- utter_dialogo_abrazo
+- utter_dialogo_no_me_importa
+- utter_dialogo_espera
+- utter_dialogo_que_dices
+- utter_dialogo_mal
+
+- utter_reacciones_ja_ja
+- utter_reacciones_wow
 
 
 
@@ -347,3 +362,27 @@ templates:
     - text: "Disculpas aceptadas"
     - text: "No ha sido para tanto"
     - text: "Nada, no te ralles"
+  utter_dialogo_abrazo:
+    - text: "No podemos abrazarnos, ni siquiera vernos"
+    - text: "Hace falta mas confianza para un abrazo, ¿no crees?"
+    - text: "Creo que primero estaria mejor conocernos más"
+  utter_dialogo_no_me_importa:
+    - text: "Si tan poco te importa, dejemoslo"
+    - text: "Bueno si no te importa..."
+    - text: "Dejalo mejor"
+  utter_dialogo_espera:
+    - text: "Espero"
+    - text: "Claro, tomate tu tiempo"
+    - text: "Ok, estoy aquí"
+  utter_dialogo_que_dices:
+    - text: "No te entiendo"
+    - text: "No me queda claro, ¿puedes repetir?"
+    - text: "No entiendo que dices"
+    - text: "Perdona, creo que no te entendido"
+  utter_dialogo_mal:
+    - text: "No ha ido como esperaba"
+    - text: "Volvamos a empezar"
+  utter_reacciones_ja_ja:
+    - text: "Me alegro de hazerte reir"
+  utter_reacciones_wow:
+    - text: "Wow"
