@@ -101,6 +101,7 @@ nlu:
 - intent: usuario_bien
   examples: |
     - Estoy bien
+    - Bien
     - No estoy mal
     - Esta bien
     - Me parece bien
@@ -331,7 +332,7 @@ nlu:
     - Donde esta tu casa?
     - Donde duermes?
 
-- intent: bot_ok
+- intent: =ok
   examples: |
     - Perfecto
     - Pues ya esta
@@ -342,7 +343,7 @@ nlu:
     - Okey makey
     - Perf
 
-- intent: bot_si
+- intent: =si
   examples: |
     - Si
     - Sep
@@ -356,7 +357,7 @@ nlu:
     - S
     - Afirmativo
 
-- intent: bot_no
+- intent: =no
   examples: |
     - No
     - Nope
@@ -367,7 +368,7 @@ nlu:
     - N
     - Noup
 
-- intent: bot_de_acuerdo
+- intent: =de_acuerdo
   examples: |
     - Ok
     - De acuerdo
@@ -517,3 +518,71 @@ nlu:
     - :O
     - :0
     - :v
+
+- intent: =demuestra
+  examples: |
+    - Demuestramelo
+    - No te creo
+    - Demuestra
+    
+- intent: =cap
+  examples: |
+    - Cap
+    - Vaya capeada
+
+- intent: insultos
+  examples: |
+    - Maricon
+    - Gilipollas
+    - Anormal
+    - Mariquita
+    - Marica
+    - Nigger
+    - Nigga
+    - Negrata
+    - Tontopolla
+    - Estupido
+    - Idiota
+    - Payaso
+    - Soplanabos
+    - Hijo puta
+    - Cabron
+    - Me cago en ti
+    - Me cago en tus putos muertos
+    - Puta
+    - Subnormal
+    - Trozo de mierda
+    - Retrasado
+    - Chupapollas
+    - Payasete
+
+- intent: bot_de_nada
+  examples: |
+    - De nada
+    - Dnd
+    - Sin problema
+ 
+- intent: cambiar_de_tema
+  examples: |
+    - De que quieres hablar?
+    - Hablemos de otra cosa
+    - Dejemos este tema
+    - No quiero seguir hablando de esto
+    - Quiero cambiar de tema
+- intent: que_pasa
+  examples: |
+    - Que pasa?
+    - Que te pasa?
+    - Que te sucede?
+    - Te pasa algo?
+
+- intent: nombre
+  examples: |
+    - Como te llamas?
+    - Cual es tu nombre?
+    - Comment tu t'apelles?
+
+- intent: Chim
+  examples: |
+     - Chim
+     - Chimezie

@@ -64,6 +64,14 @@ intents:
   - =mal
   - reacciones_ja_ja
   - reacciones_wow
+  - =demuestra
+  - =cap
+  - insultos
+  - bot_de_nada
+  - cambiar_de_tema
+  - que_pasa
+  - Chim
+  - nombre
 
 responses:
   utter_usuario_saluda_hola:
@@ -286,22 +294,22 @@ responses:
   - text: "En un pisito humilde de Barcelona"
   - text: "No voy a decirte mi dirección"
 
-  utter_bot_ok:
+  utter_=ok:
   - text: "De acuerdo"
   - text: "¿Algo más?"
   - text: "Ok"
 
-  utter_bot_si:
+  utter_=si:
   - text: "¡Perfecto!"
   - text: "Bien"
   - text: "Ok"
 
-  utter_bot_no:
+  utter_=no:
   - text: "Bueno, que se le va a hacer"
   - text: "De acuerdo"
   - text: "No hay problema"
 
-  utter_bot_de_acuerdo:
+  utter_=acuerdo:
   - text: "De acuerdo"
   - text: "¿Algo más?"
   - text: "Ok"
@@ -365,21 +373,72 @@ responses:
   - text: "Claro, tomate tu tiempo"
   - text: "Ok, estoy aquí"
 
-  utter_dialogo_que_dices:
+  utter_=que_dices:
   - text: "No te entiendo"
   - text: "No me queda claro, ¿puedes repetir?"
   - text: "No entiendo que dices"
   - text: "Perdona, creo que no te entendido"
+  - text: "Que?"
+  - text: "Que me estas container? No lo pillo"
+  - text: "?"
 
-  utter_dialogo_mal:
-  - text: "No ha ido como esperaba"
+  utter_=mal:
+  - text: "Para, calmate y volvemos a empezar, te parece?"
   - text: "Volvamos a empezar"
+  - text: "Vale, da igual. Hagamos borrón y cuenta nueva"
+  - text: "No te pillo. Dejalo"
+
+  utter_=que:
+  - text: "cafe"
 
   utter_reacciones_ja_ja:
   - text: "Me alegro de hazerte reir"
 
   utter_reacciones_wow:
   - text: "Wow"
+  
+  utter_=demuestra:
+  - text: "No te lo puedo demostrar, si lo pudiera hacer, no habria experimento"
+  - text: "Tienes que confiar en mi palabra"
+  - text: "Se me hace dificil demostrarte que soy un humano"
+  - text: "Entonces soy un alien del espacio exterior, no te jode?"
+  - text: "Confia en el menda"
+ 
+  utter_=cap:
+  - text: "no cap"
+  
+  utter_insultos:
+  - text: "Relajate"
+  - text: "No me insultes"
+  - text: "Te pasas, no he hecho nada"
+  - text: "???"
+  - text: "Eso tu"
+
+  utter_bot_de_nada:
+  - text: "No sé como responder a de nada"
+  - text: "Ahora que digo?"
+  - text: "Bueno, cambiemos de tema."
+
+  utter_cambiar_de_tema:
+  - text: "Quieres hablar de como te ha ido el dia?"
+  - text: "Pues que tal te va el dia?"
+  - text: "Estas teniendo un buen dia?"
+
+  utter_que_pasa:
+  - text: "Nada"
+  - text: "Nada, poca cosa"
+  - text: "Nada especial"
+
+  utter_nombre:
+  - text: "Eso no te importa"
+  - text: "Me puedes llamar Chim"
+  - text: "Soy Chimezie, mis amigos me llaman Chim"
+  - text: "Chim"
+
+  utter_Chim:
+  - text: "Que?"
+  - text: "Que quieres?"
+  - text: "Ese soy yo"
 
 session_config:
   session_expiration_time: 60
