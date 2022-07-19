@@ -12,7 +12,7 @@ intents:
 - usuario_triste
 - usuario_solo
 - usuario_contento
-- usuario_emociando
+- usuario_emocionado
 - usuario_bien
 - usuario_aburrido
 - usuario_ocupado

@@ -212,38 +212,102 @@ rules:
   -  intent: bot_residencia
   -  action: utter_bot_residencia
 
-- rule: Say bot_ok anytime the user says utter_bot_ok
-  steps:
-  -  intent: bot_ok
-  -  action: utter_bot_ok
-
-- rule: Say bot_si anytime the user says utter_bot_si
-  steps:
-  -  intent: bot_si
-  -  action: utter_bot_si
-
-- rule: Say bot_no anytime the user says utter_bot_no
-  steps:
-  -  intent: bot_no
-  -  action: utter_bot_no
-
-- rule: Say bot_de_acuerdo anytime the user says utter_bot_de_acuerdo
-  steps:
-  -  intent: bot_de_acuerdo
-  -  action: utter_bot_de_acuerdo
-
-- rule: Say bot_hablemos anytime the user says utter_bot_hablemos
+- rule: Say bot_hablemos anytime the user says utter_bot_estas_ahi
   steps:
   -  intent: bot_hablemos
-  -  action: utter_bot_hablemos
-
-- rule: Say bot_estas_ahi anytime the user says utter_bot_estas_ahi
-  steps:
-  -  intent: bot_estas_ahi
   -  action: utter_bot_estas_ahi
 
-- rule: Ask the user to rephrase whenever they send a message with low NLU confidence
+- rule: Say bot_estas_ahi anytime the user says utter_bot_donde_estas
   steps:
-  - intent: nlu_fallback
-  - action: utter_dialogo_que_dices
+  -  intent: bot_estas_ahi
+  -  action: utter_bot_donde_estas
 
+- rule: Say bot_donde_estas anytime the user says utter_bot_no_hay_problema
+  steps:
+  -  intent: bot_donde_estas
+  -  action: utter_bot_no_hay_problema
+
+- rule: Say bot_no_hay_problema anytime the user says utter_bot_gracias
+  steps:
+  -  intent: bot_no_hay_problema
+  -  action: utter_bot_gracias
+
+- rule: Say bot_gracias anytime the user says utter_bot_bien_hecho
+  steps:
+  -  intent: bot_gracias
+  -  action: utter_bot_bien_hecho
+
+- rule: Say bot_bien_hecho anytime the user says utter_bot_bienvenido
+  steps:
+  -  intent: bot_bien_hecho
+  -  action: utter_bot_bienvenido
+
+- rule: Say bot_bienvenido anytime the user says utter_bot_amable
+  steps:
+  -  intent: bot_bienvenido
+  -  action: utter_bot_amable
+
+- rule: Say bot_amable anytime the user says utter_bot_perdon
+  steps:
+  -  intent: bot_amable
+  -  action: utter_bot_perdon
+
+- rule: Say bot_perdon anytime the user says utter_dialogo_abrazo
+  steps:
+  -  intent: bot_perdon
+  -  action: utter_dialogo_abrazo
+
+- rule: Say dialogo_abrazo anytime the user says utter_dialogo_no_me_importa
+  steps:
+  -  intent: dialogo_abrazo
+  -  action: utter_dialogo_no_me_importa
+
+- rule: Say dialogo_no_me_importa anytime the user says utter_dialogo_espera
+  steps:
+  -  intent: dialogo_no_me_importa
+  -  action: utter_dialogo_espera
+
+- rule: Say dialogo_espera anytime the user says utter_=que_dices
+  steps:
+  -  intent: dialogo_espera
+  -  action: utter_=que_dices
+
+- rule: Say reacciones_ja_ja anytime the user says utter_reacciones_ja_ja
+  steps:
+  -  intent: reacciones_ja_ja
+  -  action: utter_reacciones_ja_ja
+
+- rule: Say reacciones_wow anytime the user says utter_reacciones_wow
+  steps:
+  -  intent: reacciones_wow
+  -  action: utter_reacciones_wow
+
+- rule: Say utter_insultos anytime the user says insultos
+  steps:
+  - intent: insultos
+  - action: utter_insultos
+
+- rule: Say utter_bot_de_nada anytime the user says bot_de_nada
+  steps:
+  - intent: bot_de_nada
+  - action: utter_bot_de_nada
+
+- rule: Say utter_cambiar_de_tema anytime the user says cambiar_de_tema
+  steps:
+  - intent: cambiar_de_tema
+  - action: utter_cambiar_de_tema
+
+- rule: Say utter_que_pasa anytime the user says que_pasa
+  steps:
+  - intent: que_pasa
+  - action: utter_que_pasa
+
+- rule: Say utter_nombre anytime the user says nombre
+  steps:
+  - intent: nombre
+  - action: utter_nombre
+
+- rule: Say utter_Chim anytime the user says Chim
+  steps:
+  - intent: Chim
+  - action: utter_Chim

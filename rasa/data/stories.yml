@@ -5,6 +5,82 @@ stories:
 - story: no comprende 2 vegades
   steps:
   - intent: nlu_fallback
-  - action: utter_dialogo_que_dices
+  - action: utter_=que_dices
   - intent: nlu_fallback
-  - action: utter_dialogo_mal
+  - action: utter_=que_dices
+  - intent: nlu_fallback
+  - action: utter_=que_dices
+  - action: utter_=mal
+  - checkpoint: check_volver_a_empezar
+
+- story: bot volver a empezar (si)
+  steps:
+  - checkpoint: check_volver_a_empezar
+  - or:
+    - intent: =ok
+    - intent: =si
+    - intent: =de_acuerdo
+  - action: utter_=si
+  - action: utter_usuario_saluda_hola
+
+- story: bot volver a empezar (no)
+  steps:
+  - checkpoint: check_volver_a_empezar
+  - or:
+    - intent: =no
+    - intent: nlu_fallback
+  - action: utter_usuario_despide_adios
+
+- story: demuestra humanidad (real)
+  steps:
+  - intent: bot_real
+  - action: utter_bot_real
+  - intent: =demuestra
+  - checkpoint: tt_demuestramelo
+
+- story: cap
+  steps:
+  - intent: =cap
+  - action: utter_=cap
+
+- story: demuestra humanidad (persona)
+  steps:
+  - intent: bot_eres_persona
+  - action: utter_bot_eres_persona
+  - or:
+    - intent: =cap
+    - intent: =demuestra
+  - checkpoint: tt_demuestramelo
+
+- story: demuestra humanidad (chatbot)
+  steps:
+  - intent: bot_eres_chatbot
+  - action: utter_bot_eres_chatbot
+  - or:
+    - intent: =cap
+    - intent: =demuestra
+  - checkpoint: tt_demuestramelo
+
+- story: demuestra (check)
+  steps:
+  - checkpoint: tt_demuestramelo
+  - action: utter_=demuestra
+
+
+- story: cambio de tema (main)
+  steps:
+  - intent: cambiar_de_tema
+  - action: utter_cambiar_de_tema
+  - checkpoint: cambiar_de_tema_branch
+
+- story: cambio de tema (si)
+  steps:
+  - checkpoint: cambiar_de_tema_branch
+  - intent: =si
+  - action: utter_=si
+
+- story: cambio de tema (no)
+  steps:
+  - checkpoint: cambiar_de_tema_branch
+  - intent: =no
+  - action: utter_=no
