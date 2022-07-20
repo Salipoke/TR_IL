@@ -78,6 +78,14 @@ stories:
   - checkpoint: cambiar_de_tema_branch
   - intent: =si
   - action: utter_=si
+  - intent: nlu_fallback
+  - action: utter_bot_sabes
+
+- story: cambio de tema (dir)
+  steps:
+  - checkpoint: cambiar_de_tema_branch
+  - intent: nlu_fallback
+  - action: utter_bot_sabes
 
 - story: cambio de tema (no)
   steps:

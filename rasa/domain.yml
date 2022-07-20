@@ -440,6 +440,30 @@ responses:
   - text: "Que quieres?"
   - text: "Ese soy yo"
 
+  utter_tiempo_calor:
+    - text: "Y que lo digas, estoy sudando"
+    - text: "No veas, ¡¡¡qué bochorno!!!"
+    - text: "En verano que se le va hacer"
+
+  utter_tiempo_frio:
+    - text: "¡¿Qué dices?! De frio nada"
+    - text: "Estas loco, si parece que estemos a mil grados"
+    - text: "No estaremos en el mismo sitio porque aquí hace un calor infernal"
+
+  utter_tiempo_min:
+    - text: "No sabria decirte, un par de minutos"
+    - text: "No mucho entre uno i cinco minutos"
+    - text: "Ni idea, el tiempo vuela"
+
+  utter_bot_opinion:
+    - text: "No sabria que decirte, es un tema que desconozco"
+    - text: "No tengo una opinion muy clara sobre eso"
+
+  utter_bot_sabes:
+    - text: "No se que es eso, lo siento"
+    - text: "Podemos hablar de otra cosa? No se que es eso"
+    - text: "Hay alguna otra cosa de la que quieras hablar, no se que es eso"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

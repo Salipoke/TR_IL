@@ -584,5 +584,41 @@ nlu:
 
 - intent: Chim
   examples: |
-     - Chim
-     - Chimezie
+    - Chim
+    - Chimezie
+
+- intent: tiempo_calor
+  examples: |
+    - Hace un calor que te torras
+    - Hace mucho calor
+    - Tengo calor
+    - Calor
+    - Estoy sudando
+
+- intent: tiempo_frio
+  examples: |
+    - Tengo frio
+    - Hace mucho frio
+    - Frio
+    - Me estoy helando
+
+- intent: tiempo_min
+  examples: |
+    - Cuanto tiempo llevamos hablando?
+    - Cuanto llevamos hablando?
+    - Sabes cuanto tiempo hemos hablado?
+
+- intent: bot_opinion
+  examples: |
+    - Que opinas de esto
+    - Cual es tu opinion
+    - Que te parece
+    - Que opinas
+    - Que crees
+
+- intent: bot_sabes
+  examples: |
+    - Sabes que es esto?
+    - Que sabes de esto?
+    - Que es esto?
+    - Sabes algo de esto?
