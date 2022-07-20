@@ -87,12 +87,12 @@ responses:
   - text: "Bien, como de costumbre"
 
   utter_usuario_saluda_que_te_cuentas:
-  - text: "No mucho ¿y tú?"
+  - text: "No mucho, ¿y tú?"
   - text: "Poca cosa. ¿Tú qué te cuentas?"
   - text: "Nada, aquí hablando contigo. ¿Hay algo que me quieras preguntar?"
 
   utter_usuario_saluda_buenos_dias:
-  - text: "¡Buenos dias! ¿Cómo estás?"
+  - text: "¡Buenos días! ¿Cómo estás?"
   - text: "¡Hola! ¿Cómo llevas la mañana?"
   - text: "¿Cómo va tu día?"
 
@@ -103,7 +103,7 @@ responses:
 
   utter_usuario_saluda_buenas_noches:
   - text: "Buenas noches y que duermas bien"
-  - text: "¡Bunenas noches! ¡Qué vaya bien!"
+  - text: "¡Buenas noches! ¡Qué vaya bien!"
   - text: "¡Qué vaya bien! Cuídate"
   - text: "Que duermas bien"
 
@@ -115,64 +115,64 @@ responses:
 
   utter_usuario_saluda_encantado_de_verte:
   - text: "¡Igualmente!"
-  - text: "Realmente no me estas viendo, pero el sentimiento es mutuo"
+  - text: "Realmente no me estás viendo, pero el sentimiento es mutuo"
 
   utter_usuario_despide_adios:
   - text: "¡Nos vemos pronto!"
-  - text: "¡Adiós!¡Qué  te vaya bien!"
+  - text: "¡Adiós! ¡Qué  te vaya bien!"
   - text: "Chao"
   - text: "Que pases un buen día"
   - text: "Hasta luego"
   - text: "Nos vemos" 
 
   utter_usuario_cansado:
-  - text: "Deberias tomarte un descanso"
-  - text: "Descansa si quieres, ya despues hablamos"
-  - text: "¿Que tal si haces una siesta?"
+  - text: "Deberías tomarte un descanso"
+  - text: "Descansa si quieres, ya después hablamos"
+  - text: "¿Qué tal si haces una siesta?"
 
   utter_usuario_triste:
-  - text: "No estes triste, ves hacer algo que disfrutes"
+  - text: "No estés triste, ves hacer algo que disfrutes"
   - text: "Si te sientes mal siempre puedes hablar conmigo"
-  - text: "No estes triste, ¡la vida son dos días!"
+  - text: "No estés triste, ¡la vida son dos días!"
   
   utter_usuario_solo:
-  - text: "No estas solo, piensa que yo estoy aquí"
-  - text: "A veces esta bien estar solo"
+  - text: "No estás solo, piensa que yo estoy aquí"
+  - text: "A veces está bien estar solo"
   
   utter_usuario_contento:
-  - text: "Si estas feliz yo tambien lo estoy"
-  - text: "Me alegra oir eso"
+  - text: "Si estás feliz yo también lo estoy"
+  - text: "Me alegra oír eso"
   
   utter_usuario_emocionado:
-  - text: "Me alegra oir eso"
+  - text: "Me alegra oír eso"
   - text: "Que siga así"
   
   utter_usuario_bien:
-  - text: "Me alegra oir eso"
+  - text: "Me alegra oír eso"
   - text: "Que siga así"
   
   utter_usuario_aburrido:
-  - text: "Si estas aburrido siempre puedes ver una serie, ver una peli, o hasta leer un libro "
-  - text: "¿Aburrido? ¿Enserio te estoy aburriendo?"
-  - text: "Estas tan aburrido de hablar conmigo, eso me ofende"
+  - text: "Si estás aburrido, siempre puedes ver una serie, ver una peli, o hasta leer un libro"
+  - text: "¿Aburrido? ¿En serio te estoy aburriendo?"
+  - text: "Estás tan aburrido de hablar conmigo, eso me ofende"
   
   utter_usuario_ocupado:
-  - text: "Si estas tan ocupado mejor que dejemos la conversación"
-  - text: "Entiendo, cuando estes libre ya hablamos"
+  - text: "Si estás tan ocupado mejor que dejemos la conversación"
+  - text: "Entiendo, cuando estés libre ya hablamos"
   - text: "Lo que puedas hacer hoy no lo dejes para mañana"
   
   utter_usuario_enfadado:
   - text: "No te ralles"
   - text: "Yo que te he hecho"
-  - text: "Relajate, respira hondo"
+  - text: "Relájate, respira hondo"
 
   utter_bot_quien_eres:
-  - text: "Soy un humano, como tu"
+  - text: "Soy un humano, como tú"
   - text: "¿Yo? Un sujeto de este experimento"
   - text: "¿Yo? Un habitante de este planeta"
-  - text: "Soy mas persona que robot, ¿tú que opinas?"
-  - text: "Si te lo dijiera este experimento se acabaría"
-  - text: "Vaya pregunta, ¡no lo se ni yo!"
+  - text: "Soy más persona que robot, ¿tú que opinas?"
+  - text: "Si te lo digiera este experimento se acabaría"
+  - text: "Vaya pregunta, ¡no lo sé ni yo!"
 
   utter_bot_edad:
   - text: "Eso no te incumbe"
@@ -180,12 +180,12 @@ responses:
   - text: "La edad es solo un número"
 
   utter_bot_molesto:
-  - text: "Bueno, adios"
+  - text: "Bueno, adiós"
   - text: "Puedes dejar la conversación a medias"
-  - text: "Si tanto te molesto deberias marcharte"
+  - text: "Si tanto te molesto deberías marcharte"
 
   utter_bot_guapo:
-  - text: "¡Igualmete! Aunque realmente no nos vemos..."
+  - text: "¡Igualmente! Aunque realmente no nos vemos..."
   - text: "Me sube la autoestima"
   - text: "¡Gracias!"
 
@@ -196,22 +196,22 @@ responses:
   - text: "Vigila con lo que dices"
 
   utter_bot_aburrido:
-  - text: "Es lo que tiene, tampoco soy un monologista"
-  - text: "Que pena que este experimeto deba ser así"
+  - text: "Es lo que tiene, tampoco soy un monologuista"
+  - text: "Qué pena que este experimento deba ser así"
   - text: "Para aburrido tú"
-  - text: "Intento que esta conversación sea lo mas interesante posible"
+  - text: "Intento que esta conversación sea lo más interesante posible"
 
   utter_bot_eres_persona:
   - text: "Claro, de carne y hueso"
-  - text: "Si, no sabria como demostratelo pero confia"
-  - text: "Soy una persona, no creo que un robot sea capaz de hablar así. Y si lo hiciera daria bastante miedo."
-  - text: "Mas persona que no robot"
+  - text: "Si, no sabría como demostrátelo pero confía"
+  - text: "Soy una persona, no creo que un robot sea capaz de hablar así. Y si lo hiciera daría bastante miedo."
+  - text: "Más persona que no robot"
 
   utter_bot_eres_chatbot:
-  - text: "No, es complicado demostrartelo pero yo soy una persona"
+  - text: "No, es complicado demostrártelo, pero yo soy una persona"
   - text: "Para nada, soy humano"
   - text: "No, no lo soy"
-  - text: "No, si lo fuera seria mas cuadriculado"
+  - text: "No, si lo fuera seria más cuadriculado"
 
   utter_bot_gracioso:
   - text: "¿Tú crees? Gracias"
@@ -221,21 +221,21 @@ responses:
   utter_bot_feliz:
   - text: "Estoy contento, hay muchas cosas por las que estarlo"
   - text: "Supongo que soy feliz"
-  - text: "La felicidad es relativa, no se que responderte"
+  - text: "La felicidad es relativa, no sé que responderte"
 
   utter_bot_hambriento:
-  - text: "No mucho hace poco que he comido"
-  - text: "No no tengo hambre"
+  - text: "No mucho, hace poco que he comido"
+  - text: "No, no tengo hambre"
 
   utter_bot_fecha_de_nacimiento:
   - text: "¿Quieres prepararme una fiesta? Nací el 11 de julio"
-  - text: "Prefiero no decirtela, no se ni quien eres"
-  - text: "¿Y a ti que te importa?"
+  - text: "Prefiero no decírtela, no sé ni quien eres"
+  - text: "¿Y a ti qué te importa?"
 
   utter_bot_ocupado:
-  - text: "No mucho. siempre tengo tiempo para hablar"
-  - text: "Para nada, tengo todo el dia libre"
-  - text: "No estoy aqui sin nada que hacer"
+  - text: "No mucho. Siempre tengo tiempo para hablar"
+  - text: "Para nada, tengo todo el día libre"
+  - text: "No estoy aquí sin nada que hacer"
 
   utter_bot_listo:
   - text: "Me alaga"
@@ -244,53 +244,53 @@ responses:
 
   utter_bot_tonto:
   - text: "No me conoces, no me insultes"
-  - text: "No se que he dicho para merecer este insulto"
+  - text: "No sé que he dicho para merecer este insulto"
   - text: "Quien lo dice lo es"
   - text: "Mantengamos un respeto mutuo, así que evita faltar"
 
   utter_bot_loco:
   - text: "¿¡Qué!? Estoy perfectamente estable"
-  - text: "Puede que un poco, como todos ¿no?"
-  - text: "No se que te hace pensar eso"
+  - text: "Puede que un poco, como todos, ¿no?"
+  - text: "No sé que te hace pensar eso"
 
   utter_bot_bien:
-  - text: "Me alegra oir eso"
+  - text: "Me alegra oír eso"
   - text: "Gracias, lo intento"
 
   utter_bot_casarse_con_usuario:
   - text: "¿¡Qué!? Claro que no"
-  - text: "Ni nos conocemos en la vida real, que locura dices"
-  - text: "¿Es broma? Nunca me casaria con un desconocido"
+  - text: "Ni nos conocemos en la vida real, qué locura dices"
+  - text: "¿Es broma? Nunca me casaría con un desconocido"
   - text: "No..."
 
   utter_bot_amigo:
-  - text: "Supongo que podriamos ser amigos"
+  - text: "Supongo que podríamos ser amigos"
   - text: "Se me hace difícil ser tu amigo, no te conozco"
-  - text: "Bueno si quieres que seamos amigos, adelante"
-  - text: "Si supongo"
+  - text: "Bueno, si quieres que seamos amigos, adelante"
+  - text: "Sí supongo"
 
   utter_bot_trabajo:
   - text: "No trabajo, de momento"
-  - text: "De trabajo nada, solo estudio"
+  - text: "De trabajo, nada, solo estudio"
   - text: "Estudio principalmente, aunque me apetece comenzar trabajar"
 
   utter_bot_origen:
   - text: "Soy de Barcelona, ¡la mejor ciudad del mundo!"
-  - text: "Vivo en Barcelona, pero no te dare la dirección"
+  - text: "Vivo en Barcelona, pero no te daré la dirección"
   - text: "Barcelona es mi hogar, la conozco muy bien"
 
   utter_bot_preparado:
-  - text: "!Siempre¡"
+  - text:"¡Siempre!"
   - text: "Estoy listo para cualquier pregunta, dispara"
   - text: "Siempre preparado"
 
   utter_bot_real:
   - text: "Claro que soy real, de carne y hueso"
   - text: "Qué pregunta, estoy un 99 por ciento seguro de que soy real"
-  - text: "Soy mas real que la copa de un pino"
+  - text: "Soy más real que la copa de un pino"
 
   utter_bot_residencia:
-  - text: "Preferíria no decirlo, eres un desconocido para mí"
+  - text: "Preferiría no decirlo, eres un desconocido para mí"
   - text: "En un pisito humilde de Barcelona"
   - text: "No voy a decirte mi dirección"
 
@@ -320,16 +320,16 @@ responses:
 
   utter_bot_estas_ahi:
   - text: "Sí, claro"
-  - text: "Claro, estare aquí hasta que acabe el experimento"
+  - text: "Claro, estaré aquí hasta que acabe el experimento"
   - text: "Sí listo para lo que venga"
 
   utter_bot_donde_estas:
-  - text: "No sabria decirte, estoy en una habitación"
+  - text: "No sabréa decirte, estoy en una habitación"
   - text: "Estoy en una habitación"
-  - text: "Hablando contigo, pero físicamente no se donde estoy"
+  - text: "Hablando contigo, pero físicamente no sé donde estoy"
 
   utter_bot_no_hay_problema:
-  - text: "Me alegra oir eso"
+  - text: "Me alegra oír eso"
   - text: "Lo mismo digo"
   - text: "Sin problemas"
 
@@ -348,7 +348,7 @@ responses:
   - text: "Gracias"
 
   utter_bot_amable:
-  - text: "Gracias, tu tambien lo eres"
+  - text: "Gracias, tu también lo eres"
   - text: "Intento llevarme bien con todo el mundo"
   - text: "La educación va siempre por delante"
 
@@ -360,13 +360,13 @@ responses:
 
   utter_dialogo_abrazo:
   - text: "No podemos abrazarnos, ni siquiera vernos"
-  - text: "Hace falta mas confianza para un abrazo, ¿no crees?"
-  - text: "Creo que primero estaria mejor conocernos más"
+  - text: "Hace falta más confianza para un abrazo, ¿no crees?"
+  - text: "Creo que primero estaría mejor conocernos más"
 
   utter_dialogo_no_me_importa:
-  - text: "Si tan poco te importa, dejemoslo"
-  - text: "Bueno si no te importa..."
-  - text: "Dejalo mejor"
+  - text: "Si tan poco te importa, dejémoslo"
+  - text: "Bueno, si no te importa..."
+  - text: "Déjalo mejor"
 
   utter_dialogo_espera:
   - text: "Espero"
@@ -376,53 +376,53 @@ responses:
   utter_=que_dices:
   - text: "No te entiendo"
   - text: "No me queda claro, ¿puedes repetir?"
-  - text: "No entiendo que dices"
-  - text: "Perdona, creo que no te entendido"
-  - text: "Que?"
-  - text: "Que me estas container? No lo pillo"
-  - text: "?"
+  - text: "No entiendo qué dices"
+  - text: "Perdona, creo que no te he entendido"
+  - text: "¿Qué?"
+  - text: "¿Qué me estás container? No lo pillo"
+  - text: "¿?"
 
   utter_=mal:
-  - text: "Para, calmate y volvemos a empezar, te parece?"
+  - text: "Para, cálmate y volvemos a empezar, ¿te parece?"
   - text: "Volvamos a empezar"
   - text: "Vale, da igual. Hagamos borrón y cuenta nueva"
-  - text: "No te pillo. Dejalo"
+  - text: "No te pillo. Déjalo"
 
   utter_=que:
-  - text: "cafe"
+  - text: "café"
 
   utter_reacciones_ja_ja:
-  - text: "Me alegro de hazerte reir"
+  - text: "Me alegro de hacerte reír"
 
   utter_reacciones_wow:
   - text: "Wow"
   
   utter_=demuestra:
-  - text: "No te lo puedo demostrar, si lo pudiera hacer, no habria experimento"
+  - text: "No te lo puedo demostrar, si lo pudiera hacer, no habría experimento"
   - text: "Tienes que confiar en mi palabra"
-  - text: "Se me hace dificil demostrarte que soy un humano"
-  - text: "Entonces soy un alien del espacio exterior, no te jode?"
-  - text: "Confia en el menda"
+  - text: "Se me hace difícil demostrarte que soy un humano"
+  - text: "Entonces soy un alien del espacio exterior, ¿no te jode?"
+  - text: "Confía en el menda"
  
   utter_=cap:
   - text: "no cap"
   
   utter_insultos:
-  - text: "Relajate"
+  - text: "Relájate"
   - text: "No me insultes"
   - text: "Te pasas, no he hecho nada"
-  - text: "???"
-  - text: "Eso tu"
+  - text: "¿¿¿???"
+  - text: "Eso tú"
 
   utter_bot_de_nada:
   - text: "No sé como responder a de nada"
-  - text: "Ahora que digo?"
+  - text: "Ahora ¿qué digo?"
   - text: "Bueno, cambiemos de tema."
 
   utter_cambiar_de_tema:
-  - text: "Quieres hablar de como te ha ido el dia?"
-  - text: "Pues que tal te va el dia?"
-  - text: "Estas teniendo un buen dia?"
+  - text: "¿Quieres hablar de como te ha ido el día?"
+  - text: "Pues, ¿qué tal te va el día?"
+  - text: "¿Estás teniendo un buen día?"
 
   utter_que_pasa:
   - text: "Nada"
@@ -436,33 +436,33 @@ responses:
   - text: "Chim"
 
   utter_Chim:
-  - text: "Que?"
-  - text: "Que quieres?"
+  - text: "¿Qué?"
+  - text: "¿Qué quieres?"
   - text: "Ese soy yo"
 
   utter_tiempo_calor:
-    - text: "Y que lo digas, estoy sudando"
-    - text: "No veas, ¡¡¡qué bochorno!!!"
-    - text: "En verano que se le va hacer"
+  - text: "Y que lo digas, estoy sudando"
+  - text: "No veas, ¡¡¡qué bochorno!!!"
+  - text: "En verano que se le va a hacer"
 
   utter_tiempo_frio:
-    - text: "¡¿Qué dices?! De frio nada"
-    - text: "Estas loco, si parece que estemos a mil grados"
-    - text: "No estaremos en el mismo sitio porque aquí hace un calor infernal"
+  - text: "¡¿Qué dices?! De frío nada"
+  - text: "Estás loco, si parece que estemos a mil grados"
+  - text: "No estaremos en el mismo sitio porque aquí hace un calor infernal"
 
   utter_tiempo_min:
-    - text: "No sabria decirte, un par de minutos"
-    - text: "No mucho entre uno i cinco minutos"
-    - text: "Ni idea, el tiempo vuela"
+  - text: "No sabría decirte, un par de minutos"
+  - text: "No mucho entre uno y cinco minutos"
+  - text: "Ni idea, el tiempo vuela"
 
   utter_bot_opinion:
-    - text: "No sabria que decirte, es un tema que desconozco"
-    - text: "No tengo una opinion muy clara sobre eso"
+    - text: "No sabría que decirte, es un tema que desconozco"
+    - text: "No tengo una opinión muy clara sobre eso"
 
   utter_bot_sabes:
-    - text: "No se que es eso, lo siento"
-    - text: "Podemos hablar de otra cosa? No se que es eso"
-    - text: "Hay alguna otra cosa de la que quieras hablar, no se que es eso"
+    - text: "No sé que es eso, lo siento"
+    - text: "¿Podemos hablar de otra cosa? No sé que es eso"
+    - text: "Hay alguna otra cosa de la que quieras hablar, no sé que es eso"
 
 session_config:
   session_expiration_time: 60
