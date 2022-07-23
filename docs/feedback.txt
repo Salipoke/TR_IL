@@ -1,0 +1,151 @@
+Your input ->
+?
+Your input ->  hola
+¿Qué tal?
+Your input ->  bien y tu?
+Que siga así
+Your input ->  como te llamas?
+Soy Chimezie, mis amigos me llaman Chim
+Your input ->  yo soy Marcos
+No estes triste, ves hacer algo que disfrutes
+Your input ->  estoy contento, pero gracias
+Me alegra oir eso
+Your input ->  de donde eres?
+?
+Your input ->  que edad tienes?
+¡Y a ti que te importa!
+Your input ->  era para conocernos
+No entiendo que dices
+No te pillo. Dejalo
+Your input ->  perdon
+Creo que primero estaria mejor conocernos más
+Your input ->  que te gustaria saber de mí?
+Me alegra oir eso
+Your input ->  eres de barcelona?
+Me alegra oir eso
+Your input ->  yo vivo en Mataró
+Que pases un buen día
+Your input ->  igualmente
+Que me estas container? No lo pillo
+Your input ->  de que trabajas?
+De trabajo nada, solo estudio
+Your input ->  y que estudias?
+No me queda claro, ¿puedes repetir?
+Your input ->  que estas estudiando?
+?
+Your input ->  estudias
+No entiendo que dices
+Your input ->  yo estudio informatica
+???
+Your input ->  soy programador
+?
+Your input ->  mi trabajo es programar
+No trabajo, de momento
+Your input ->  te gusta estudiar
+Si estas feliz yo tambien lo estoy
+Your input ->  estoy triste
+No estes triste, ¡la vida son dos días!
+Your input ->  gracias
+Gracias
+Your input ->  tienes alguna pregunta?
+Que?
+Your input ->  eso es muy personal
+No ha sido para tanto
+Your input ->  eres mayor de edad?
+Eso no te incumbe
+Your input ->  quien eres?
+¿Yo? Un sujeto de este experimento
+Your input ->  que experimento?
+No podemos abrazarnos, ni siquiera vernos
+Your input ->  pues tomamos un café
+?
+Your input ->  vives?
+Bueno, adios
+Your input ->  eres un robot?
+No, es complicado demostrartelo pero yo soy una persona
+Your input ->  hablas español?
+Your input ->  hablas ingles?
+Sí listo para lo que venga
+Your input ->  hello
+Your input ->
+
+
+
+
+
+
+
+Your input ->  hol
+¡Saludos!
+Your input ->  Qué tal estás'
+Muy bien, gracias
+Your input ->  Yo también estoy bien
+Me alegra oir eso
+Your input ->  Me alegra conocerte. Cómo te llamas?
+No entiendo que dices
+Your input ->  Cómo te llamas?
+Me puedes llamar Chim
+Your input ->  Genial
+No me queda claro, ¿puedes repetir?
+Your input ->  Yo me llamo Pedro
+Perdona, creo que no te entendido
+No te pillo. Dejalo
+Your input ->  Encantado de conocerte
+Nos vemos
+Your input ->  Ya te despides?
+¡Perfecto!
+Your input ->  Me gusta hablar contigo
+Si estas feliz yo tambien lo estoy
+Your input ->  Cuéntame algo
+Claro, estare aquí hasta que acabe el experimento
+Your input ->  Dónde estás?
+Perdona, creo que no te entendido
+Your input ->  donde estas?
+Lo mismo digo
+Your input ->  Yo vivo en barcelona
+No entiendo que dices
+Your input ->  Quién te ha creado?
+Que?
+Your input ->  QUé eres?
+Gracias, lo intento
+Your input ->  Eres humano?
+Soy una persona, no creo que un robot sea capaz de hablar así. Y si lo hiciera daria bastante miedo.
+Your input ->  Me alegra saber eso
+Si estas feliz yo tambien lo estoy
+Your input ->  me alegro por ti
+No se que es eso, lo siento
+Your input ->  Quieres que noa veamos un día?
+No me queda claro, ¿puedes repetir?
+Your input ->  Quieres quedar?
+Ni nos conocemos en la vida real, que locura dices
+Your input ->  Te gustaría conocerme?
+No me queda claro, ¿puedes repetir?
+Your input ->  Quieres conocerme?
+¡Lo mismo digo!
+Your input ->  Yo bebo café
+Que me estas container? No lo pillo
+Your input ->  Eres un poco tonto
+Quien lo dice lo es
+Your input ->  No te ofendas
+?
+Your input ->  Te gusta el dibujo?
+Que?
+Your input ->  Qué te gusta hacer?
+Me alegra oir eso
+Your input ->  Te gusta escribir?
+?
+Your input ->  Qué te gusta hacer?
+Me alegra oir eso
+Your input ->  A mi me gusta el vino
+No entiendo que dices
+Your input ->  Te gusta la cerveza
+Perdona, creo que no te entendido
+Your input ->  dfkjg
+No te entiendo
+
+
+
+
+
+
+
