@@ -282,6 +282,11 @@ rules:
   -  intent: reacciones_wow
   -  action: utter_reacciones_wow
 
+- rule: Say utter_cap anytime the user says cap
+  steps:
+  -  intent: cap
+  -  action: utter_cap
+
 - rule: Say utter_insultos anytime the user says insultos
   steps:
   -  intent: insultos
@@ -311,3 +316,4 @@ rules:
   steps:
   -  intent: nombre
   -  action: utter_nombre
+

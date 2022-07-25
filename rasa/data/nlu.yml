@@ -308,6 +308,8 @@ nlu:
   examples: |
     - De donde vienes?
     - Donde naciste?
+    - De donde eres?
+    - De donde has salido
 
 - intent: bot_preparado
   examples: |
