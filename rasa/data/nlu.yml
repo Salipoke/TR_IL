@@ -624,3 +624,66 @@ nlu:
     - Que sabes de esto?
     - Que es esto?
     - Sabes algo de esto?
+
+- intent: usuario_que_te_gustaria_saber_de_mí
+  examples: |
+    - Que te gustaria saber de mi?
+    - Que quieres de mi?
+    - Te interesa algo de mi?
+    - Quieres saber algo de mi?
+    - Te puedo contar algo sobre de mi?
+    - Te interesa algo sobre mi?
+
+- intent: usuario_origen
+  examples: |
+    - De españa
+    - Del mundo
+    - De mataro
+    - De Tarragona
+    - De LLeida
+    - De Francia
+    - De Estados Unidos
+    - De Reino Unido
+    - De Madrid
+    - De Girona
+    - De Sancugat
+    - De Londres
+    - De Paris
+    - De Amsterdam
+    - De Tokyo
+    - De Asia
+    - De Europa
+    - Vivo en
+    - Soy de
+
+- intent: usuario_hobby
+  examples: |
+    - Pintar
+    - Dibujar
+    - Cocinar
+    - Leer
+    - Ver pelis
+    - Ver series
+    - Tocar un instrumento
+    - Tocar el piano
+    - Tocar la guitarra
+    - Jugar futbol
+    - Jugar basquet
+    - Hacer deporte
+    - Ir al gimasio
+
+- intent: usuario_comida_favorita
+  examples: |
+    - Me gusta
+    - Mi comida favorita es
+    - La comida que mas me gusta es
+    - Me gusta mucho la comida
+
+- intent: bot_hobbies
+  examples: |
+    - Que te gusta hacer en tu tiempo libre?
+    - Tienes algun hobbie?
+    - Tus hobbies?
+    - Que haces para entretenerte?
+    - Cuales son tus hobbies?
+    - Que haces en tu tiempo libre?

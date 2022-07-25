@@ -92,3 +92,34 @@ stories:
   - checkpoint: cambiar_de_tema_branch
   - intent: =no
   - action: utter_=no
+
+- story: te_gustaria_saber_algo_de_mi
+  steps:
+  - intent: usuario_que_te_gustaria_saber_de_mí
+  - action: utter_usuario_que_te_gustaria_saber_de_mí
+  - checkpoint: cosas_sobre_usuario
+
+- story: te_gustaria_saber_algo_de_mi (origen)
+  steps:
+  - checkpoint: cosas_sobre_usuario
+  - intent: usuario_origen
+  - action: utter_usuario_origen
+
+- story: te_gustaria_saber_algo_de_mi (hobby)
+  steps:
+  - checkpoint: cosas_sobre_usuario
+  - intent: usuario_hobby
+  - action: utter_usuario_hobby
+  - checkpoint: bot_hobbies
+
+- story: te_gustaria_saber_algo_de_mi (comida_fav)
+  steps:
+  - checkpoint: cosas_sobre_usuario
+  - intent: usuario_comida_favorita
+  - action: utter_usuario_comida_favorita
+  
+- story: bot_hobbies 
+  steps:
+  - checkpoint: bot_hobbies
+  - intent: bot_hobbies
+  - action: utter_bot_hobbies
