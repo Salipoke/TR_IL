@@ -66,6 +66,11 @@ intents:
 - tiempo_min
 - bot_opinion
 - bot_sabes
+- usuario_que_te_gustaria_saber_de_mí
+- usuario_origen
+- usuario_hobby
+- usuario_comida_favorita
+- bot_hobbies
 
 actions:
 - utter_usuario_saluda_hola
@@ -97,7 +102,7 @@ actions:
 - utter_bot_gracioso
 - utter_bot_feliz
 - utter_bot_hambriento
-- utter_bot_fecha_de_nacimiento
+- utter_bot_fecha_de_nacimiento	
 - utter_bot_ocupado
 - utter_bot_listo
 - utter_bot_tonto
@@ -135,8 +140,11 @@ actions:
 - utter_tiempo_min
 - utter_bot_opinion
 - utter_bot_sabes
-
-
+- utter_usuario_que_te_gustaria_saber_de_mí
+- utter_usuario_origen
+- utter_usuario_hobby
+- utter_usuario_comida_favorita
+- utter_bot_hobbies
 
 templates:
   utter_usuario_saluda_hola:
@@ -476,3 +484,28 @@ templates:
   utter_bot_sabes:
     - text: "No, no se que es"
     - text: "Ni idea, ¿Puedes explicarmelo?"
+
+  utter_usuario_que_te_gustaria_saber_de_mí:
+    - text: "¿De dónde eres?"
+    - text: "¿Cuáles son tus hobbies?"
+    - text: "¿Cuál es tu comida favorita?"
+
+ utter_usuario_origen:
+    - text: "Guay"
+    - text: "Como mola, algún día me gustaría viajar hacia ahí"
+    - text: "Ala, qué sitio"
+
+  utter_usuario_hobby:
+    - text: "Mola, qué interesante"
+    - text: "Guau, parece que te toman mucho tiempo"
+    - text: "Con esos hobbies te lo pasarás genial"
+
+  utter_usuario_comida_favorita:
+    - text: "Normal, esta riquísimo"
+    - text: "Esta buenísimo"
+    - text: "Mmmmm, qué buen gusto"
+
+  utter_bot_hobbies:
+    - text: "Me gusta dibujar y bailar"
+    - text: "Me paso mucho tiempo dibujando, es algo que realmente disfruto"
+    - text: "Cantar, bailar y sobre todo dibujar"
