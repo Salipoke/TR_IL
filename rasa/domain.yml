@@ -82,6 +82,10 @@ intents:
   - usuario_hobby
   - usuario_comida_favorita
   - bot_hobbies
+  - usuario_de_barcelona
+  - usuario_igualmente
+  - bot_estudios
+  - usuario_ocupacion
 
 responses:
   utter_usuario_saluda_hola:
@@ -499,6 +503,20 @@ responses:
     - text: "Me paso mucho tiempo dibujando, es algo que realmente disfruto"
     - text: "Cantar, bailar y sobre todo dibujar"
 
+  utter_usuario_de_barcelona:
+    - text: "Yo tambien soy de Barcelona"
+    - text: "Ala, yo tambien vivo en Barcelona"
+
+  utter_usuario_igualmente:
+    - text: "Nada, nada"
+    - text: "No es nada"
+
+  utter_bot_estudios:
+    - text: "Estoy en un bachillerato tecnologico"
+    - text: "Bachillerato, tecnologico"
+    - text: "Bachi tecnologico"
+
+  
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
