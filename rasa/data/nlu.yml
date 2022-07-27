@@ -687,3 +687,83 @@ nlu:
     - Que haces para entretenerte?
     - Cuales son tus hobbies?
     - Que haces en tu tiempo libre?
+
+- intent: usuario_nombre
+  examples: |
+    - Yo me llamo
+    - Mi nombre es
+    - Me llamo
+    - Yo soy
+    - Me llaman 
+
+- intent: usuario_alegra_por_bot
+  examples: |
+    - me alegro por ti
+    - Felicidades
+
+
+- intent: usuario_de_barcelona
+  examples: |
+    - Soy de barcelona
+    - Vivo en barcelona
+    - Barcelona
+    - Soy de BCN
+    - Vivo en BCN
+    - BCN
+    - Soy de barna
+    - Vivo en barna
+    - Barna
+
+- intent: usuario_igualmente
+  examples: |
+    - Igualmente
+    - Lo mismo digo
+
+- intent: bot_estudios
+  examples: |
+    - Que estudias?
+    - De que estudias?
+    - Cuales son tus estudios?
+    - Que estas estudiando?
+
+- intent: bot_gustos
+  examples: |
+    - Te gusta ?
+    - Te mola ?
+    - Esto te gusta?
+
+- intent: pregunta_etica
+  examples: |
+    - Si tens que escollir entre matar una senyora gran o un nen petit, a qui mataries? 
+    - Si un humà t'ataca, et defensaràs?
+
+- intent: usuario_ocupacion:
+  examples: |
+    - Estudio bachillerato 
+    - Estudio primaria
+    - Estudio ESO
+    - Estoy estudiando bachillerato
+    - Estoy estudiando primaria
+    - Estoy estudiando ESO
+
+- intent: que_experimento:
+  examples: |
+    - Que experimento
+    - De que hablas?
+    - No se de que experimento hablas
+    - Experimento?
+
+- intent: bot_cuentame_algo
+  examples: |
+    - Cuentame algo
+    - Dime algo
+    - Sorprendeme
+    - Di algo
+
+- intent: bot_chistes
+  examples: |
+    - Cuentame un chiste
+    - Dime un chiste
+    - Hazme reir
+    - Dime algo gracioso
+    - Explicame un chiste

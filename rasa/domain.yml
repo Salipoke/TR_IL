@@ -87,7 +87,6 @@ intents:
   - bot_estudios
   - usuario_ocupacion
   - que_experimeto
-  - usuario_nombre
   - bot_cuentame_algo
   - bot_chistes
 
@@ -530,6 +529,12 @@ responses:
     - text: "Me paso mucho tiempo dibujando, es algo que realmente disfruto"
     - text: "Cantar, bailar y sobre todo dibujar"
 
+  utter_usuario_nombre:
+    - text: "Yo me llamo Chim"
+    - text: "Hola, yo soy Chim"
+    - text: "Bonito nombre"
+    - text: "Mi nombre es Chim"
+
   utter_usuario_de_barcelona:
     - text: "Yo tambien soy de Barcelona"
     - text: "Ala, yo tambien vivo en Barcelona"
@@ -552,10 +557,6 @@ responses:
     - text: "En el que estamos participando ahora mismo"
     - text: "Esta conversación es un experimento"
     - text: "Estamos participando en un trabajo de investigación"
-
-  utter_usuario_nombre:
-    - text: "Encantado"
-    - text: "Hola, yo soy Chim"
 
   utter_bot_cuentame_algo:
     - text: "Te cuento un chiste"
