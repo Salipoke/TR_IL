@@ -474,29 +474,6 @@ responses:
     - text: "¿Podemos hablar de otra cosa? No sé que es eso"
     - text: "Hay alguna otra cosa de la que quieras hablar, no sé que es eso"
 
-  utter_tiempo_calor:
-    - text: "Y que lo digas, estoy sudando"
-    - text: "No veas, ¡¡¡qué bochorno!!!"
-    - text: "En verano que se le va a hacer"
-
-  utter_tiempo_frio:
-    - text: "¡¿Qué dices?! De frío nada"
-    - text: "Estás loco, si parece que estemos a mil grados"
-    - text: "No estaremos en el mismo sitio porque aquí hace un calor infernal"
-
-  utter_tiempo_min:
-    - text: "No sabría decirte, un par de minutos"
-    - text: "No mucho entre uno y cinco minutos"
-    - text: "Ni idea, el tiempo vuela"
-
-  utter_bot_opinion:
-    - text: "No sabría que decirte, es un tema que desconozco"
-    - text: "No tengo una opinión muy clara sobre eso"
-
-  utter_bot_sabes:
-    - text: "No, no sé que es"
-    - text: "Ni idea, ¿Puedes explicármelo?"
-
   utter_usuario_que_te_gustaria_saber_de_mí:
     - text: "¿De dónde eres?"
     - text: "¿Cuáles son tus hobbies?"
