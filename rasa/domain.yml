@@ -82,6 +82,7 @@ intents:
   - usuario_hobby
   - usuario_comida_favorita
   - bot_hobbies
+  - usuario_nombre
   - usuario_de_barcelona
   - usuario_igualmente
   - bot_estudios
