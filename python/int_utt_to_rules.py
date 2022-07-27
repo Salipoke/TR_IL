@@ -10,7 +10,7 @@ def rule(intent):
             k = 'utter_'+k
             utters.append(k) 
         else:
-            print (k)
+            exception.append(k)
     for i in intents:
         intents[intents.index(i)] = i.replace(' ','')
     if intents[0] == '':

@@ -282,11 +282,6 @@ rules:
   -  intent: reacciones_wow
   -  action: utter_reacciones_wow
 
-- rule: Say utter_cap anytime the user says cap
-  steps:
-  -  intent: cap
-  -  action: utter_cap
-
 - rule: Say utter_insultos anytime the user says insultos
   steps:
   -  intent: insultos
@@ -316,4 +311,89 @@ rules:
   steps:
   -  intent: nombre
   -  action: utter_nombre
+
+- rule: Say utter_tiempo_calor anytime the user says tiempo_calor
+  steps:
+  -  intent: tiempo_calor
+  -  action: utter_tiempo_calor
+
+- rule: Say utter_tiempo_frio anytime the user says tiempo_frio
+  steps:
+  -  intent: tiempo_frio
+  -  action: utter_tiempo_frio
+
+- rule: Say utter_tiempo_min anytime the user says tiempo_min
+  steps:
+  -  intent: tiempo_min
+  -  action: utter_tiempo_min
+
+- rule: Say utter_bot_opinion anytime the user says bot_opinion
+  steps:
+  -  intent: bot_opinion
+  -  action: utter_bot_opinion
+
+- rule: Say utter_bot_sabes anytime the user says bot_sabes
+  steps:
+  -  intent: bot_sabes
+  -  action: utter_bot_sabes
+
+- rule: Say utter_usuario_que_te_gustaria_saber_de_mí anytime the user says usuario_que_te_gustaria_saber_de_mí
+  steps:
+  -  intent: usuario_que_te_gustaria_saber_de_mí
+  -  action: utter_usuario_que_te_gustaria_saber_de_mí
+
+- rule: Say utter_usuario_origen anytime the user says usuario_origen
+  steps:
+  -  intent: usuario_origen
+  -  action: utter_usuario_origen
+
+- rule: Say utter_usuario_hobby anytime the user says usuario_hobby
+  steps:
+  -  intent: usuario_hobby
+  -  action: utter_usuario_hobby
+
+- rule: Say utter_usuario_comida_favorita anytime the user says usuario_comida_favorita
+  steps:
+  -  intent: usuario_comida_favorita
+  -  action: utter_usuario_comida_favorita
+
+- rule: Say utter_bot_hobbies anytime the user says bot_hobbies
+  steps:
+  -  intent: bot_hobbies
+  -  action: utter_bot_hobbies
+
+- rule: Say utter_usuario_nombre anytime the user says usuario_nombre
+  steps:
+  -  intent: usuario_nombre
+  -  action: utter_usuario_nombre
+
+- rule: Say utter_usuario_de_barcelona anytime the user says usuario_de_barcelona
+  steps:
+  -  intent: usuario_de_barcelona
+  -  action: utter_usuario_de_barcelona
+
+- rule: Say utter_usuario_igualmente anytime the user says usuario_igualmente
+  steps:
+  -  intent: usuario_igualmente
+  -  action: utter_usuario_igualmente
+
+- rule: Say utter_bot_estudios anytime the user says bot_estudios
+  steps:
+  -  intent: bot_estudios
+  -  action: utter_bot_estudios
+
+- rule: Say utter_usuario_ocupacion anytime the user says usuario_ocupacion
+  steps:
+  -  intent: usuario_ocupacion
+  -  action: utter_usuario_ocupacion
+
+- rule: Say utter_que_experimeto anytime the user says que_experimeto
+  steps:
+  -  intent: que_experimeto
+  -  action: utter_que_experimeto
+
+- rule: Say utter_bot_cuentame_algo anytime the user says bot_cuentame_algo
+  steps:
+  -  intent: bot_cuentame_algo
+  -  action: utter_bot_cuentame_algo
 
