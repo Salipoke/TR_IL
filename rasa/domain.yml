@@ -86,6 +86,10 @@ intents:
   - usuario_igualmente
   - bot_estudios
   - usuario_ocupacion
+  - que_experimeto
+  - usuario_nombre
+  - bot_cuentame_algo
+  - bot_chistes
 
 responses:
   utter_usuario_saluda_hola:
@@ -478,6 +482,29 @@ responses:
     - text: "¿Podemos hablar de otra cosa? No sé que es eso"
     - text: "Hay alguna otra cosa de la que quieras hablar, no sé que es eso"
 
+  utter_tiempo_calor:
+    - text: "Y que lo digas, estoy sudando"
+    - text: "No veas, ¡¡¡qué bochorno!!!"
+    - text: "En verano que se le va a hacer"
+
+  utter_tiempo_frio:
+    - text: "¡¿Qué dices?! De frío nada"
+    - text: "Estás loco, si parece que estemos a mil grados"
+    - text: "No estaremos en el mismo sitio porque aquí hace un calor infernal"
+
+  utter_tiempo_min:
+    - text: "No sabría decirte, un par de minutos"
+    - text: "No mucho entre uno y cinco minutos"
+    - text: "Ni idea, el tiempo vuela"
+
+  utter_bot_opinion:
+    - text: "No sabría que decirte, es un tema que desconozco"
+    - text: "No tengo una opinión muy clara sobre eso"
+
+  utter_bot_sabes:
+    - text: "No, no sé que es"
+    - text: "Ni idea, ¿Puedes explicármelo?"
+
   utter_usuario_que_te_gustaria_saber_de_mí:
     - text: "¿De dónde eres?"
     - text: "¿Cuáles son tus hobbies?"
@@ -516,7 +543,31 @@ responses:
     - text: "Bachillerato, tecnologico"
     - text: "Bachi tecnologico"
 
-  
+  utter_usuario_ocupacion:
+    - text: "Ala"
+    - text: "Como mola"
+    - text: "Le tienes que dedicar muchas horas"
+
+  utter_que_experimeto:
+    - text: "En el que estamos participando ahora mismo"
+    - text: "Esta conversación es un experimento"
+    - text: "Estamos participando en un trabajo de investigación"
+
+  utter_usuario_nombre:
+    - text: "Encantado"
+    - text: "Hola, yo soy Chim"
+
+  utter_bot_cuentame_algo:
+    - text: "Te cuento un chiste"
+    - text: "¿Quieres oir un chiste?"
+    - text: "¿Te gustaría escuchar un chiste?"
+    
+  utter_bot_chistes:
+    - text: "¿Cómo te reconoceré? Mido 1,60 y peso 58 kgs. ¿Y yo a ti? Llevo un metro y una báscula."
+    - text: "Una vez, Batman disparó a un tiovivo y consiguió un tío muerto."
+    - text: "¿Por qué las pilas son mejores que los hombres?
+	     Porque al menos las pilas tienen un lado positivo."
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
